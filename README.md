@@ -5,8 +5,8 @@
 ![Ekran Görüntüsü (151)](https://user-images.githubusercontent.com/79467236/179833373-ebad4391-f900-4145-bda2-5a1155c627d1.png)
 
 This project was bootstrapped w![Ekran Görüntüsü (152)](https://user-images.githubusercontent.com/79467236/179833383-1f97a254-0e00-4321-a375-c031bbd09b20.png)
-ith [Create React App](https://g![Ekran Görüntüsü (153)](https://user-images.githubusercontent.com/79467236/179833395-0b34a4f7-7434-41c9-9525-1933f8369761.png)
-ithub.com/facebook/create-react-app).
+ith
+
 
 #Html
 #css
