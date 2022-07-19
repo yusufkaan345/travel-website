@@ -1,0 +1,20 @@
+.select-img{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-column-gap: .2rem;
+    grid-row-gap: 1rem;
+}
+.select-img img{
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   ;
+}
+
+
+@media screen and (max-width:740px){
+    .select-img{
+       grid-template-columns: repeat(1 , 1fr);;
+    }
+}

@@ -1,0 +1,11 @@
+.carousel{
+    margin-top: 4rem;
+    
+}
+.carousel img{
+    height: 90vh;
+    object-fit: cover;
+}
+.thumbs-wrapper , .carousel-status{
+    display: none;
+}

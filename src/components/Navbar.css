@@ -1,0 +1,131 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 2;
+    position: absolute;
+    color:#fff;
+}
+.navbar-bg{
+    background-color: #f5f5f5;
+}
+
+.hamburger {
+    display: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+.hamburger:hover{
+    transform: scale(1.2);
+}
+
+.nav-menu {
+    display: flex;
+
+}
+
+.nav-menu li {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-icons {
+    margin: 5px;
+    font-size:1.5rem;
+    cursor: pointer;
+    
+}
+.nav-icons .icon:hover{
+   
+    transition: 0.3s;
+   transform: scale(1.1);
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 940px) {
+
+    .mobile-menu {
+       
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f5f5f5;
+        position: absolute;
+        top: -100vh;
+        left: 0;
+        justify-content: space-between;
+        transition: 0.3;
+    }
+    .active{
+        top: 80px;
+        transition: 0.4s;
+        color:#000;
+      
+    }
+    .dark{
+        color:#000;
+    }
+    .mobile-menu li{
+        padding: 1.2rem 1rem;
+        cursor: pointer;
+        margin: 0 1rem;
+        border-bottom: 1px solid black;
+        transition: 0.3s;
+    }
+    .mobile-menu li:hover{
+         transform: scale(1.01);
+    }
+    .mobile-nav{
+        margin: 1rem 0;
+    }
+    .mobile-menu-bottom{
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .mobile-menu button{
+        margin: 1rem;
+        width: 90%;
+    }
+   .social-icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    font-size: 1.5rem ;
+    
+   }
+  
+   .icon{
+    cursor: pointer;
+    transition: 0.3s;
+   }
+   .icon:hover{
+    transform: scale(1.5);
+   }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-icons {
+        display: none;
+    }
+}
